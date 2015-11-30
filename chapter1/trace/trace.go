@@ -14,6 +14,7 @@ type tracer struct {
 	out io.Writer
 }
 
+// New implemeted
 func New(w io.Writer) Tracer {
 	return &tracer{out: w}
 }
